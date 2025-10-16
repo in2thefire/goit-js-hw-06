@@ -20,3 +20,16 @@ const markup = images
   )
   .join("");
 gallery.insertAdjacentHTML("beforeend", markup);
+
+// const galleryMarkup = ({ url, alt }) => {
+//   const liRef = document.createElement("li");
+//   const imgRef = document.createElement("img");
+//   imgRef.src = url;
+//   imgRef.alt = alt;
+//   imgRef.classList.add("img");
+//   liRef.append(imgRef);
+//   return liRef;
+// };
+
+// const markup = images.map(galleryMarkup);
+// gallery.append(...markup);
