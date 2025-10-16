@@ -14,6 +14,7 @@ const images = [
 ];
 
 const gallery = document.querySelector(".gallery");
+
 const markup = images
   .map(
     ({ url, alt }) => `<li><img src="${url}" alt="${alt}" class="img"/></li>`
